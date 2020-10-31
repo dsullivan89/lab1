@@ -7,6 +7,11 @@ header, main, nav, footer {
 	text-align: center;
 }
 
+footer {
+	font-size: 1.5em;
+	color: white;
+}
+
 nav a {
 	padding:15px;
 	padding-bottom:4px;
