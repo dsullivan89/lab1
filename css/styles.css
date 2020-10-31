@@ -7,6 +7,11 @@ body hr {
 	width: 90%;
 }
 
+p {
+	font-size: 1.2em;
+}
+
+
 header, main, nav, footer {
 	text-align: center;
 }
@@ -47,6 +52,7 @@ header h1 {
 }
 
 .current {
+	color: yellow;
 	border-bottom:2px;
 	font-size:2em;
 	transition:0.1;
@@ -79,6 +85,7 @@ table {
 ul {
 	margin-left: auto;
 	margin-right: auto;
+	font-size: 1.2em;
 }
 
 div h2 {
@@ -88,6 +95,7 @@ div h2 {
 
 div table {
 	margin-left: 15%;
+	font-size: 1.2em;
 }
 
 #table-header {
