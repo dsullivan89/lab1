@@ -3,17 +3,48 @@ body {
 	color:gray;
 }
 
-header, main, nav {
+body hr {
+	width: 90%;
+}
+
+header, main, nav, footer {
 	text-align: center;
 }
 
 footer {
-	font-size: 1.5em;
+	display: flex;
+	font-size: 1.0em;
 	color: white;
-	float: center;
 }
 
-.current nav a {
+footer img {
+	left: 0px;
+	padding-top: 30px;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+}
+
+footer div {
+	left: 100px;
+	padding-top: 30px;
+	padding-left: 15px;
+	position: fixed;
+}
+
+footer hr {
+	width: 90%;
+	margin-left: 5% !important;
+	position: fixed;
+	
+}
+
+.current {
+	border-bottom:2px;
+	font-size:2em;
+}
+
+nav a {
 	padding:15px;
 	padding-bottom:4px;
 	font-size:1.8em;
@@ -30,11 +61,4 @@ nav a:hover {
 main {
 	display: flex;
 	justify-content: center;
-}
-
-.csumb-logo {
-	left: 0px;
-	width: 100px;
-	height: 100px;
-	position: fixed;
 }
