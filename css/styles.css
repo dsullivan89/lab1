@@ -13,6 +13,7 @@ header, main, nav, footer {
 
 footer {
 	display: flex;
+	flex-wrap: wrap;
 	font-size: 1.0em;
 	color: white;
 }
@@ -22,26 +23,33 @@ footer img {
 	padding-top: 30px;
 	width: 100px;
 	height: 100px;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 footer div {
 	left: 100px;
 	padding-top: 30px;
 	padding-left: 15px;
-	position: fixed;
+	/*position: fixed;*/
 }
 
 footer hr {
-	width: 90%;
-	margin-left: 5% !important;
-	position: fixed;
-	
+	flex: 0 0 100%;
+} 
+
+header h1 {
+	font-family: 'Pacifico', cursive;
+}
+
+#form {
+	text-align: center;
+	height: 1000px;
 }
 
 .current {
 	border-bottom:2px;
 	font-size:2em;
+	transition:0.1;
 }
 
 nav a {
