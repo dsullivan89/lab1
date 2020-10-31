@@ -10,8 +10,10 @@ header, main, nav, footer {
 footer {
 	font-size: 1.5em;
 	color: white;
+	float: right;
 }
 
+.current
 nav a {
 	padding:15px;
 	padding-bottom:4px;
@@ -20,7 +22,6 @@ nav a {
 	color: white;
 }
 
-.current
 nav a:hover {
 	border-bottom:2px;
 	font-size:2em;
@@ -34,7 +35,7 @@ main {
 
 .csumb-logo {
 	left: 0px;
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 	position: fixed;
 }
